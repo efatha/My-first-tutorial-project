@@ -80,7 +80,7 @@ p{
         margin: 50px  auto ;
     }
 }
-@media (min-width:1280px) {
+@media (min-width:678px) { /* This change can enable the responsiveness of all screen devices, starting from the exact mobile size 678px. The previous min-width was responsive merely for larger screen devices*/
     .container{
         grid-template-columns: repeat(4, 1fr);}
     .cards.cards.violet {
